@@ -1,39 +1,42 @@
-# Color Scheme Generator
+# Quizzical
 
-Color Scheme Generator is a simple web application developed as part of a Scrimba course. This tool allows you to generate color schemes based on a selected color, providing various palette modes and color count options.
+Quizzical is a quiz application developed as part of a Scrimba course. Test your knowledge across various categories and difficulty levels with this fun and interactive quiz!
 
 ## Overview
 
-The Color Scheme Generator is a straightforward application built using HTML, CSS, and JavaScript. It leverages the [theColorAPI](https://www.thecolorapi.com/) to fetch color schemes dynamically. The app enables users to explore different color combinations, copy hex codes to the clipboard, and generate random color schemes.
+Quizzical is a React-based web application that fetches trivia questions from the [Open Trivia Database](https://opentdb.com/). Users can customize their quiz experience by choosing specific categories, difficulty levels, and more. The application features a welcoming interface, interactive quiz sections, and options to review correct answers.
 
 ## Features
 
-- **Palette Modes:** Choose from various palette modes such as Monochrome, Analogic, Complement, and more.
-- **Adjustable Color Count:** Customize the number of colors in your generated scheme.
-- **Copy to Clipboard:** Easily copy hex codes to the clipboard for quick use.
-- **Random Color Generation:** Get inspiration with a single click to generate a completely random color.
+- **Category Selection:** Choose from a variety of trivia categories to focus your quiz on specific subjects.
+- **Difficulty Levels:** Customize the quiz difficulty based on your knowledge level.
+- **Interactive Quiz:** Engage in an interactive quiz experience with dynamically loaded questions.
+- **Answer Review:** Review correct answers and track your total points.
 
 ## Usage
 
 1. Open the application in your web browser.
-2. Select a base color using the color picker.
-3. Explore different palette modes and adjust the color count.
-4. Copy your favorite color hex codes to the clipboard.
-5. Generate random color schemes for inspiration.
+2. Select preferred categories and difficulty levels.
+3. Start the quiz to answer trivia questions.
+4. Review correct answers and track your points.
+5. Restart the quiz or adjust preferences as needed.
 
 ## How to Run
 
-Simply open the `index.html` file in your web browser. The application runs entirely on the client-side, requiring no additional setup.
+This project is built with React. To run the application locally:
+
+1. Clone this repository.
+2. Install dependencies with `npm install`.
+3. Run the development server with `npm start`.
 
 ## Deployment
 
-This application is live on [Netlify](https://main--classy-kringle-6f3aef.netlify.app). You can access it [here](https://main--classy-kringle-6f3aef.netlify.app).
+This application is live on [Netlify](https://main--tourmaline-unicorn-2d4c1a.netlify.app). You can access it [here](https://main--tourmaline-unicorn-2d4c1a.netlify.app).
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
+- React
+- [Open Trivia Database](https://opentdb.com/)
 
 ## Credits
 
