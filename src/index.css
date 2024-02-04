@@ -8,7 +8,7 @@ body{
     background: url('./assets/blob-1.svg') left bottom no-repeat, url('./assets/blob-2.svg') right top no-repeat;
     background-color: #F5F7FB;
     min-height: 100vh;
-    padding: 110px 75px 120px 75px;
+    padding: 110px 75px 120px;
     color: #293264;
     font-family: 'Karla', sans-serif;
 }
@@ -177,9 +177,11 @@ h5{
 
     body{
         text-align: center;
+        padding: 110px 30px 120px;
     }
 
-    .bullet{
+    .bullet, button{
         width: 100%;
+        -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
     }
 }
