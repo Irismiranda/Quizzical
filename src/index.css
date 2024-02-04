@@ -172,7 +172,7 @@ h5{
 
 @media only screen and (max-width: 800px){  
     .btns-section{
-        gap: 5px;
+        gap: 0px;
     }
 
     body{
