@@ -188,4 +188,8 @@ h5{
     .preferences-text{
         display: none;
     }
+
+    .right-icon{
+        margin: auto;
+    }
 }
