@@ -33,7 +33,7 @@ export default function MenuSection(props){
             </button>}
             {questionsVisibility && <div className="flex-row pointer" onClick={toggleOptions}>
                 <img className="options-icon" src={options_icon}/>
-                <h3>Change <br/> Preferences</h3>
+                <h3 className="preferences-text">Change <br/> Preferences</h3>
             </div>}
         </div>
       </div>
